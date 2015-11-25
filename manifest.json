@@ -1,0 +1,33 @@
+{
+ 
+     "name": "USC libproxy",
+ 
+     "version": "1.0",
+ 
+     "description": "Add libproxy1.usc.edu to url.",
+ 
+     "icons": {
+ 
+          "48": "usc.png"
+ 
+     },
+ 
+     "permissions": [
+ 
+          "tabs"
+ 
+     ],
+ 
+     "background": {
+ 
+         "scripts": ["contentscript.js"]
+ 
+     },
+
+     "browser_action": {
+	 "default_icon": "usc.png"
+     },
+
+     "manifest_version": 2
+ 
+}
